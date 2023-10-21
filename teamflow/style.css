@@ -1,0 +1,4926 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Josefin+Sans:wght@400;500&display=swap');
+
+/* First page starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_link{
+    display: flex;
+    margin-top: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav_title{
+    margin-top: 24px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.right_nav{
+    margin-top: 24px;
+
+}
+.down{
+    font-size: 10px;
+}
+
+
+.login{
+    font-size: 16px;
+    padding-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.nav_links{
+    transition: 0.3s;
+    padding: 0px 50px;
+}
+.nav_links:hover{
+    color: rgb(82, 82, 82);
+}
+.get_started{
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    width: 169px;
+    transition: 0.5s;
+    height: 48px;    
+    border: none;
+    color:#794CFF;
+    border-radius: 4px;
+    background-color: #ECE5FF;
+    font-size: 16px;
+}
+
+.get_started:hover{
+    background-color: #cab6ff;
+
+}
+
+
+.save_ruppees{
+    display: flex;
+    margin-top: 7%;
+    
+
+    justify-content: center;
+}
+
+
+.ninety_percent{
+    width: 108px;
+    height: 32px;
+    background-color: #81C43B;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    transition: 0.5s;
+
+}
+
+.ninety_percent:hover{
+    background-color: #6ca630;
+}
+
+.get_account{
+    background-color:#F2F9EB ;
+    width: 209px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    height: 32px;
+    color: black;
+    border-radius: 0px, 100px, 100px, 0px;
+    transition: 0.5s;
+}
+.get_account{
+    background-color: #e1fcc5;
+}
+
+.manage_team{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    line-height: 72px;
+    margin-top: 2%;
+    color: #35414B;
+    padding: 0px 300px;
+    font-weight: 600;
+}
+
+.simple_platform{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #4E5A65;
+    margin-top: 2%;
+    font-size: 16px;
+    padding: 0px 450px;
+    text-align: center;
+}
+
+.inputs_free{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.input_free{
+    width: 319px;
+    height: 52px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #97A5B5;
+    border-radius: 4px, 0px, 0px, 4px;
+    border: 1px solid #F0EBFA;   
+}
+
+.input_free::placeholder{
+    padding-left: 5%;
+}
+
+.try_for_free{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: #794CFF;
+    height: 52px;
+    border: none;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    width: 164px;
+}
+
+.try_for_free:hover{
+
+    background-color: #5032aa;
+
+}
+
+.graph_images{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+
+}
+.trusted_by_companies{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 30px 0px;
+    text-align: center;    
+}
+.ten_thousand{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.companies_logo{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hamburger{
+    display: none;
+}
+/* First page ends */
+
+/* Timeline page starts */
+.timelines{
+    border-top: 1px solid #F0EBFA;
+    border-bottom: 1px solid #F0EBFA;
+    background-color: #F0EBFA;
+    height: 700px;
+    display: flex;
+}
+.fa-message{
+    color: #F4CC4E;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #FDF8E8;
+    position: relative;
+    left: 0%;
+}
+
+.fa-clock{
+    color: #0DCE5E;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #E5F8ED; 
+    position: relative; 
+    left: 0%;
+}
+.left_timeline{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 90%;
+    display: flex;
+
+/*    flex-direction: column;*/
+    
+    width: 100%;
+}
+
+
+
+.timeline{
+    color: #FFFFFF;
+    height: 80%;
+    display: flex;
+
+    width: 60%;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+}
+.left_line{
+    position: relative;
+    right: 8%;
+    top: 10%;
+
+}
+.tl{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    left: 5%;
+    top: 2%;
+    line-height: 16px;
+    color: #4E5A65;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.line1{
+    position: relative;
+    left: 45%;
+    height: 55%;
+    width: 1px;
+    margin: 10px 0px;
+    background-color: #E1E5EA;
+}
+
+.line2{
+    height: 14.5%;
+    margin: 10px 0px;
+    position: relative;
+    left: 45%;
+    width: 1px;
+    background-color: #E1E5EA;
+}
+.benchmarking{
+    position: relative;
+    top: 10%;
+}
+
+.bm{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5A65;
+}
+
+.sent_to_denise{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5A65;
+
+}
+
+.message1{
+    border-radius: 4px;
+    height: 13%;
+    width: 90%;
+    margin-top: 20px;
+    border: 1px solid #E1E5EA;
+}
+
+.denise_mention{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3B7FF6;
+}
+
+.add_three_more{
+    position: relative;
+    top: 25%;
+    left: 5%;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5A65;   
+}
+
+.bm1{
+    margin-top: 40px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5A65;
+}
+
+
+.message2{
+    position: relative;
+    z-index: 1;
+    top: 22%;
+    right: 8%;
+    height: 400px;
+    border-radius: 4px;
+    width: 600px;
+    background-color: white;
+    border: 1px solid #E1E5EA;
+}
+
+.profile{
+    display: flex;
+    margin: 10px 20px;
+    align-items: center;
+}
+.denis_profile{
+    width: 9%;
+    margin-right: 10px;
+}
+.profile_name{
+    display: flex;
+    flex-direction: column;
+}
+.silva{
+    font-family: Inter;
+    font-size: 16px;
+    color: #4E5A65;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.designer{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5A65;
+}
+
+.message_box{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding-right: 10px;
+    height: 50%;
+    width: 80%;
+    border: 1px solid #E1E5EA;
+    background-color: white;
+}
+
+.thanks{
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+}
+
+.peter{
+    font-size: 16px;
+}
+
+.send_messg{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 90px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #3B7FF6;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 70%;
+    cursor: pointer;
+    border: none;
+
+}
+
+.right_timeline{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 90%;
+    width: 40%;
+
+}
+
+
+.surveys{
+/*    margin-top: 5px;*/
+    border: 1px solid #F0EBFA;
+    display: flex;
+    color: #35414B;
+    background-color: #FBFAFE;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px;
+    height: 135px;
+    width: 360px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pink{
+    border-left: 15px solid #794CFF;
+    padding: 0px 10px;
+
+    background-color: #F6F3FC;
+
+}
+
+.survey_desc{
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E5A65;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Timeline page ends */
+
+/* Make your work more easier starts*/
+.make_your_work_easier{
+    padding: 50px 30px;
+}
+.make_title{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #35414B;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.work_icons{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.work_icon{
+    height: 200px;
+    width: 300px;
+}
+.work_title{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #35414B;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.work_desc{
+    font-family: Inter;
+    color: #4E5A65;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+}
+
+
+.iconss{
+    width: 40%;
+}
+
+
+/* Make your work more easier ends */
+
+/* We work everyday starts */
+
+.we_work{
+    padding: 40px 80px;
+    background-color: #FBFAFE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.graph2{
+    width: 100%;
+}
+.left_we_work{
+    width: 100%;
+}
+
+.right_we_work{
+    width: 100%;
+}
+
+.we_work_title{
+    font-family: Inter;
+    font-size: 40px;
+    padding-right: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin: 10px 0px;
+    text-align: left;
+
+}
+
+.we_work_desc{
+    font-family: Inter;
+    font-size: 16px;
+    padding-right: 130px;
+    margin: 20px 0px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.we_work_button{
+    width: 164px;
+    height: 52px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 4px;
+    background-color: #796EFF;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.we_work_button:hover{
+    background-color: #6357ff;
+}
+/* We work everyday ends */
+
+/* Customer feedback starts */
+
+.customer_love_title{
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 450px;
+    position: relative;
+    height: 96px;
+    left: 32%;
+    color: #35414B;
+}
+
+.customer_love_desc{
+    font-family: Inter;
+    margin-top: 30px;
+    padding: 0px 400px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4E5A65;
+}
+
+.customer_icons{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customer_1{
+    display: flex;
+    align-items: center;
+
+}
+.customer_image{
+    margin-right: 10px;
+    width: 18%;
+}
+.bordered_top{
+    padding: 40px 0px;
+    border-top: 5px solid black;
+
+}
+.customer_name{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #4E5A65;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.customer_post{
+    color:#4E5A65;
+    margin-top: 5px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.purple_play_store{
+    display: flex;
+    padding: 50px 20px;
+    margin: 10px 105px;
+    align-items: center;
+    justify-content: center;
+    background-color: #796EFF;
+    border-radius: 16px;
+    margin-bottom: 100px;
+
+}
+
+.left_purple{
+    position: relative;
+    left: 2%;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    width: 60%;
+    line-height: 38px;
+    color: white;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.right_purple{
+
+    display: flex;
+}
+
+.store_icons{
+    position: relative;
+    left: 10%;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+/* Customer feedback ends */
+
+
+/* Footer starts */
+
+.footer_last{
+    background-color: #1D2830;
+    color: white;
+
+}
+
+.footer_lists{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 40px;
+
+    flex-wrap: wrap;
+}
+hr.line_hr{
+    border: 1px solid #293036;
+}
+.copyright{
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.copyright_text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    position: relative;
+    left: 7%;
+}
+
+.last_soc{
+    position: relative;
+    left: 60%;
+    width: 15%;
+}
+
+.footer_title{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+
+}
+
+.footer_childs{
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer_store{
+    width: 30%;
+}
+/* Footer ends  */
+
+
+@media screen and (max-width: 320px) {
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav_link{
+        display: none;
+        margin-top: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .nav_title{
+        margin-top: 24px;
+        position: relative;
+        right:  10%;
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+    }
+    .right_nav{
+        display: none;
+    }
+
+
+
+
+    .save_ruppees{
+        display: flex;
+        margin-top: 7%;
+        justify-content: center;
+    }
+
+
+    .ninety_percent{
+        display: none;
+
+    }
+
+    .get_account{
+        background-color:#F2F9EB ;
+        width: 209px;
+        margin-top: 20px;
+        font-family: 'Inter', sans-serif;
+        cursor: pointer;
+        font-weight: 500;
+        border: none;
+        height: 32px;
+        color: black;
+        border-radius: 0px, 100px, 100px, 0px;
+        
+    }
+
+    .team_desc{
+        margin: 0px 20px;
+    }
+
+    .manage_team{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 5%;
+        padding: 0px 1px;
+        font-weight: 600;
+        color: #35414B;
+    }
+
+    .simple_platform{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #4E5A65;
+        margin-top: 6%;
+        line-height: 24px;
+        font-size: 13px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .inputs_free{
+        display: flex;
+        margin-top: 2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input_free{
+        width: 80%;
+        height: 52px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #97A5B5;
+        border-radius: 4px, 0px, 0px, 4px;
+        border: 1px solid #F0EBFA;   
+    }
+
+    .input_free::placeholder{
+        padding-left: 5%;
+    }
+
+    .try_for_free{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        background-color: #794CFF;
+        height: 52px;
+        border: none;
+        transition: 0.5s;
+        color: white;
+        cursor: pointer;
+        width: 164px;
+    }
+
+    .try_for_free:hover{
+
+        background-color: #5032aa;
+
+    }
+
+    .graph_images{
+        margin-top: 30px;
+    }
+    .trusted_by_companies{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        margin: 30px 0px;
+        text-align: center;    
+    }
+    .ten_thousand{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .companies_logo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .companies{
+        width: 15%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 15px;
+        left: 10%;
+        font-size: 35px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400px;
+
+    }
+    .slack{
+        display: none;
+    }
+    .menu{
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        
+
+    }
+    /* First page ends  */
+
+
+    /* Timeline page starts */
+    .timelines{
+        background-color: #F0EBFA;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    .fa-message{
+        color: #F4CC4E;
+        border-radius: 50%;
+        padding: 8px;
+        font-size: 10px;
+        background-color: #FDF8E8;
+        position: relative;
+        left: 50%;
+    }
+
+    .fa-clock{
+        font-size: 10px;
+        color: #0DCE5E;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #E5F8ED; 
+        position: relative; 
+        left: 50%;
+    }
+    .left_timeline{
+        margin-top: 30px;
+        margin-left: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .timeline{
+        color: #FFFFFF;
+        height: 300px;
+        display: flex;
+        width: 93%;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #E1E5EA;
+    }
+    .left_line{
+        position: relative;
+        right: 20%;
+        top: 20px;
+
+    }
+    .tl{
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        position: relative;
+        left: 5%;
+        top: 2%;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .line1{
+        position: relative;
+        left: 100%;
+        height: 45%;
+        width: 1px;
+        margin: 10px 0px;
+        background-color: #E1E5EA;
+    }
+
+    .line2{
+        height: 10%;
+        margin: 10px 0px;
+        position: relative;
+        left: 100%;
+        width: 1px;
+        background-color: #E1E5EA;
+    }
+    .benchmarking{
+        position: relative;
+        top: 2%;
+    }
+
+    .bm{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .sent_to_denise{
+        position: relative;
+        top: 5%;
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 400;
+        margin: 10px 0px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+
+    }
+
+    .message1{
+        border-radius: 4px;
+        height: 11%;
+        width: 90%;
+        margin-top: 15px;
+        border: 1px solid #E1E5EA;
+    }
+
+    .denise_mention{
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 5px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3B7FF6;
+    }
+
+    .add_three_more{
+    /*    padding-right: 70px;*/
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;   
+    }
+
+    .bm1{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+    .message2 {
+        position: relative;
+        z-index: 1;
+        top: 10px;
+        right: 0%;
+        height: 200px;
+        border-radius: 4px;
+        width: 93%;
+        background-color: white;
+        border: 1px solid #E1E5EA;
+    }
+    .profile{
+        display: flex;
+        margin: 5px 10px;
+        align-items: center;
+    }
+    .denis_profile{
+        width: 6%;
+        margin-right: 10px;
+    }
+    .profile_name{
+        display: flex;
+        flex-direction: column;
+    }
+    .silva{
+        font-family: Inter;
+        font-size: 8px;
+        color: #4E5A65;
+        font-weight: 500;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .designer{
+        font-family: Inter;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .message_box{
+        position: relative;
+        left: 10%;
+        top: 10%;
+        padding-right: 10px;
+        height: 50%;
+        width: 80%;
+        border: 1px solid #E1E5EA;
+        background-color: white;
+    }
+
+    .thanks{
+        position: relative;
+        top: 10px;
+        font-size: 10px;
+    }
+
+    .peter{
+        font-size: 10px;
+    }
+
+    .send_messg{
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 50px;
+        height:22px;
+        border-radius: 4px;
+        background-color: #3B7FF6;
+        color: white;
+        position: relative;
+        top: 20%;
+        left: 74%;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    .right_timeline{
+        margin-top: 40px;
+        margin-left:10px;
+        margin-right: 0px;
+        height: 90%;
+        width: 20%;
+
+    }
+
+
+    .surveys{
+        text-align: center;
+        border: 1px solid #F0EBFA;
+        display: flex;
+        color: #35414B;
+        background-color: #FBFAFE;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 50px;
+        height: 120px;
+        width: 300px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+        border-radius: 4px;
+        letter-spacing: 0em;
+
+    }
+
+    .pink{
+        border-radius: 4px;
+        border-left: 0px solid #794CFF;
+        border-bottom:6px solid #794CFF;
+        padding: 0px 50px;
+
+        background-color: #F6F3FC;
+
+    }
+
+    .survey_desc{
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        color: #4E5A65;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    /* Timeline page ends */
+
+    /* Make your work more easier starts*/
+    .make_your_work_easier{
+        padding: 10px 15px;
+    }
+    .make_title{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .work_icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .work_icon{
+        height: 200px;
+        width: 300px;
+    }
+    .work_title{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .work_desc{
+        font-family: Inter;
+        color: #4E5A65;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    
+
+
+    .iconss{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    /* Make your work more easier ends */
+
+    /* We work everyday starts */
+
+    .we_work{
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #FBFAFE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .graph2{
+        width: 100%;
+    }
+    .left_we_work{
+        text-align: center;
+        width: 100%;
+    }
+
+    .right_we_work{
+        text-align: center;
+        width: 100%;
+    }
+
+    .we_work_title{
+        font-family: Inter;
+        font-size: 30px;
+        padding-right:0px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .we_work_desc{
+        font-family: Inter;
+        font-size: 12px;
+        padding-right: 0px;
+        margin: 20px 0px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .we_work_button{
+        width: 130px;
+        height: 42px;
+        cursor: pointer;
+        transition: 0.4s;
+        border-radius: 4px;
+        background-color: #796EFF;
+        color: white;
+        font-family: Inter;
+        font-size: 12px;
+        border: none;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .we_work_button:hover{
+        background-color: #6357ff;
+    }
+    /* We work everyday ends */
+
+
+    /* Customer feedback starts */
+
+    .customer_love_title{
+        font-family: Inter;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 96px;
+        left: 0%;
+        color: #35414B;
+    }
+
+    .customer_love_desc{
+        font-family: Inter;
+        margin-top: 0px;
+        padding: 0px 20px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4E5A65;
+    }
+
+    .customer_icons{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .customer_1{
+        display: flex;
+        align-items: center;
+        padding: 20px 0px;
+
+    }
+    .customer_image{
+        margin-right: 10px;
+        width: 15%;
+    }
+    .bordered_top{
+        padding: 20px 0px;
+        border-top: 2px solid black;
+
+    }
+    .customer_name{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .customer_post{
+        color:#4E5A65;
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .purple_play_store{
+        display: flex;
+        padding: 50px 100px;
+        flex-direction: column;
+        margin: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: #796EFF;
+        border-radius: 16px;
+    }
+
+    .left_purple{
+        position: relative;
+        left: 2%;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        width: 100%;
+        line-height: 38px;
+        color: white;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .right_purple{
+        display: flex;
+    }
+
+    .store_icons{
+        position: relative;
+        left: -50%;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    /* Customer feedback ends */
+
+
+    /* Footer starts */
+
+    .footer_last{
+        background-color: #1D2830;
+        color: white;
+
+    }
+
+    .footer_lists{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px 40px 40px;
+
+        flex-wrap: wrap;
+    }
+    hr.line_hr{
+        border: 1px solid #293036;
+    }
+    .copyright{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .copyright_text{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        position: relative;
+        left: 0%;
+    }
+
+    .last_soc{
+        position: relative;
+        left: 0%;
+        margin-top: 20px;
+        width: 55%;
+    }
+
+    .footer_title{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .footer_childs{
+        font-family: Inter;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer_store{
+        width: 30%;
+    }
+    /* Footer ends  */
+
+
+}
+
+
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    /* First page starts */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        overflow-x: hidden;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav_link{
+        display: none;
+        margin-top: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .nav_title{
+        margin-top: 24px;
+        position: relative;
+        right:  10%;
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+    }
+    .right_nav{
+        display: none;
+    }
+
+
+
+
+    .save_ruppees{
+        display: flex;
+        margin-top: 7%;
+        justify-content: center;
+    }
+
+
+    .ninety_percent{
+        display: none;
+
+    }
+
+    .get_account{
+        background-color:#F2F9EB ;
+        width: 209px;
+        margin-top: 20px;
+
+        font-family: 'Inter', sans-serif;
+        cursor: pointer;
+        font-weight: 500;
+        border: none;
+        height: 32px;
+        color: black;
+        border-radius: 0px, 100px, 100px, 0px;
+        
+    }
+
+    .team_desc{
+        margin: 0px 20px;
+    }
+    .manage_team{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 5%;
+        padding: 0px 1px;
+        font-weight: 600;
+        color: #35414B;
+    }
+
+    .simple_platform{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #4E5A65;
+        margin-top: 6%;
+        line-height: 24px;
+        font-size: 16px;
+        padding: 0px 35px;
+        text-align: center;
+    }
+
+    .inputs_free{
+        display: flex;
+        margin-top: 2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input_free{
+        width: 80%;
+        height: 52px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #97A5B5;
+        border-radius: 4px, 0px, 0px, 4px;
+        border: 1px solid #F0EBFA;   
+    }
+
+    .input_free::placeholder{
+        padding-left: 5%;
+    }
+
+    .try_for_free{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        background-color: #794CFF;
+        height: 52px;
+        border: none;
+        transition: 0.5s;
+        color: white;
+        cursor: pointer;
+        width: 164px;
+    }
+
+    .try_for_free:hover{
+
+        background-color: #5032aa;
+
+    }
+
+    .graph_images{
+        margin-top: 30px;
+    }
+    .trusted_by_companies{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 30px 0px;
+        text-align: center;    
+    }
+    .ten_thousand{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .companies_logo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+/*        flex-direction: column;*/
+    }
+    .companies{
+        width: 18%;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 15px;
+        left: 10%;
+        font-size: 35px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400px;
+
+    }
+    .slack{
+        display: none;
+    }
+    .menu{
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        
+
+    }
+    /* First page ends  */
+
+    /* Timeline page starts */
+    .timelines{
+        background-color: #F0EBFA;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    .fa-message{
+        color: #F4CC4E;
+        border-radius: 50%;
+        padding: 8px;
+        font-size: 10px;
+        background-color: #FDF8E8;
+        position: relative;
+        left: 50%;
+    }
+
+    .fa-clock{
+        font-size: 10px;
+        color: #0DCE5E;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #E5F8ED; 
+        position: relative; 
+        left: 50%;
+    }
+    .left_timeline{
+        margin-top: 30px;
+        margin-left: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .timeline{
+        color: #FFFFFF;
+        height: 300px;
+        display: flex;
+        width: 93%;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #E1E5EA;
+    }
+    .left_line{
+        position: relative;
+        right: 10%;
+        top: 20px;
+
+    }
+    .tl{
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        position: relative;
+        left: 5%;
+        top: 2%;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .line1{
+        position: relative;
+        left: 100%;
+        height: 45%;
+        width: 1px;
+        margin: 10px 0px;
+        background-color: #E1E5EA;
+    }
+
+    .line2{
+        height: 10%;
+        margin: 10px 0px;
+        position: relative;
+        left: 100%;
+        width: 1px;
+        background-color: #E1E5EA;
+    }
+    .benchmarking{
+        position: relative;
+        top: 2%;
+    }
+
+    .bm{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .sent_to_denise{
+        position: relative;
+        top: 5%;
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 400;
+        margin: 10px 0px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+
+    }
+
+    .message1{
+        border-radius: 4px;
+        height: 11%;
+        width: 90%;
+        margin-top: 15px;
+        border: 1px solid #E1E5EA;
+    }
+
+    .denise_mention{
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 5px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3B7FF6;
+    }
+
+    .add_three_more{
+    /*    padding-right: 70px;*/
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;   
+    }
+
+    .bm1{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+    .message2 {
+        position: relative;
+        z-index: 1;
+        top: 10px;
+        right: 0%;
+        height: 200px;
+        border-radius: 4px;
+        width: 93%;
+        background-color: white;
+        border: 1px solid #E1E5EA;
+    }
+    .profile{
+        display: flex;
+        margin: 5px 10px;
+        align-items: center;
+    }
+    .denis_profile{
+        width: 6%;
+        margin-right: 10px;
+    }
+    .profile_name{
+        display: flex;
+        flex-direction: column;
+    }
+    .silva{
+        font-family: Inter;
+        font-size: 8px;
+        color: #4E5A65;
+        font-weight: 500;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .designer{
+        font-family: Inter;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .message_box{
+        position: relative;
+        left: 10%;
+        top: 10%;
+        padding-right: 10px;
+        height: 50%;
+        width: 80%;
+        border: 1px solid #E1E5EA;
+        background-color: white;
+    }
+
+    .thanks{
+        position: relative;
+        top: 10px;
+        font-size: 10px;
+    }
+
+    .peter{
+        font-size: 10px;
+    }
+
+    .send_messg{
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 50px;
+        height:22px;
+        border-radius: 4px;
+        background-color: #3B7FF6;
+        color: white;
+        position: relative;
+        top: 20%;
+        left: 74%;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    .right_timeline{
+        margin-top: 40px;
+        margin-left:10px;
+        margin-right: 0px;
+        height: 90%;
+        width: 20%;
+
+    }
+
+
+    .surveys{
+        text-align: center;
+        border: 1px solid #F0EBFA;
+        display: flex;
+        color: #35414B;
+        background-color: #FBFAFE;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 50px;
+        height: 120px;
+        width: 300px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+        border-radius: 4px;
+        letter-spacing: 0em;
+
+    }
+
+    .pink{
+        border-radius: 4px;
+        border-left: 0px solid #794CFF;
+        border-bottom:6px solid #794CFF;
+        padding: 0px 50px;
+
+        background-color: #F6F3FC;
+
+    }
+
+    .survey_desc{
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        color: #4E5A65;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    /* Timeline page ends */
+
+    /* Make your work more easier starts*/
+    .make_your_work_easier{
+        padding: 10px 15px;
+    }
+    .make_title{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .work_icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .work_icon{
+        height: 200px;
+        width: 300px;
+    }
+    .work_title{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .work_desc{
+        font-family: Inter;
+        color: #4E5A65;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    
+
+
+    .iconss{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+    /* Make your work more easier ends */
+
+    /* We work everyday starts */
+
+    .we_work{
+        border-top: 1px solid #F0EBFA;
+        border-bottom: 1px solid #F0EBFA;
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #FBFAFE;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .graph2{
+        width: 100%;
+    }
+    .left_we_work{
+        text-align: center;
+        width: 100%;
+    }
+
+    .right_we_work{
+        text-align: center;
+        width: 100%;
+    }
+
+    .we_work_title{
+        font-family: Inter;
+        font-size: 16px;
+        padding: 0px 70px;
+        color: #35414B;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .we_work_desc{
+        font-family: Inter;
+        font-size: 12px;
+        padding: 0px 30px;
+        margin: 20px 0px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .we_work_button{
+        width: 200px;
+        height: 42px;
+        cursor: pointer;
+        transition: 0.4s;
+        border-radius: 4px;
+        background-color: #796EFF;
+        color: white;
+        font-family: Inter;
+        font-size: 14px;
+        border: none;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .we_work_button:hover{
+        background-color: #6357ff;
+    }
+    /* We work everyday ends */
+
+    /* Customer feedback starts */
+
+    .customer_love_title{
+        margin-top: 20px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0px 65px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 96px;
+        left: 0%;
+        color: #35414B;
+    }
+
+    .customer_love_desc{
+        font-family: Inter;
+        margin-top: 0px;
+        padding: 0px 40px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4E5A65;
+    }
+
+    .customer_icons{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .customer_1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0px;
+
+    }
+    .customer_image{
+        margin-right: 10px;
+        width: 15%;
+    }
+    .bordered_top{
+        padding: 20px 0px;
+        border-top: 2px solid black;
+
+    }
+    .customer_name{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 10px 0px;
+    }
+
+    .customer_post{
+        color:#4E5A65;
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .purple_play_store{
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        margin: 10px 0px;
+        align-items: center;
+        justify-content: center;
+        background-color: #796EFF;
+        border-radius:0px;
+    }
+
+    .left_purple{
+        position: relative;
+        left: 2%;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 600;
+        width: 100%;
+        line-height: 28px;
+        color: white;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .right_purple{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store_icons{
+        position: relative;
+        left: 25%;
+        margin-left: 00px;
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    /* Customer feedback ends */
+
+    /* Footer starts */
+
+    .footer_last{
+        background-color: #1D2830;
+        color: white;
+
+    }
+
+    .footer_lists{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px 40px 40px;
+
+        flex-wrap: wrap;
+    }
+    hr.line_hr{
+        border: 1px solid #293036;
+    }
+    .copyright{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .copyright_text{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        position: relative;
+        left: 0%;
+    }
+
+    .last_soc{
+        position: relative;
+        left: 0%;
+        margin-top: 20px;
+        width: 55%;
+    }
+
+    .footer_title{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .footer_childs{
+        font-family: Inter;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer_store{
+        width: 30%;
+    }
+    /* Footer ends  */
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* First page starts */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        overflow-x: hidden;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav_link{
+        display: none;
+        margin-top: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .nav_title{
+        margin-top: 24px;
+        position: relative;
+        right:  10%;
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+    }
+    .right_nav{
+        display: none;
+    }
+
+
+
+
+    .save_ruppees{
+        display: flex;
+        margin-top: 7%;
+        justify-content: center;
+    }
+
+
+    .ninety_percent{
+        display: none;
+
+    }
+
+    .get_account{
+        background-color:#F2F9EB ;
+        width: 209px;
+        margin-top: 20px;
+
+        font-family: 'Inter', sans-serif;
+        cursor: pointer;
+        font-weight: 500;
+        border: none;
+        height: 32px;
+        color: black;
+        border-radius: 0px, 100px, 100px, 0px;
+        
+    }
+
+    .team_desc{
+        margin: 0px 20px;
+    }
+    .manage_team{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 5%;
+        padding: 0px 1px;
+        font-weight: 600;
+        color: #35414B;
+    }
+
+    .simple_platform{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #4E5A65;
+        margin-top: 6%;
+        line-height: 24px;
+        font-size: 13px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .inputs_free{
+        display: flex;
+        margin-top: 2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input_free{
+        width: 80%;
+        height: 52px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #97A5B5;
+        border-radius: 4px, 0px, 0px, 4px;
+        border: 1px solid #F0EBFA;   
+    }
+
+    .input_free::placeholder{
+        padding-left: 5%;
+    }
+
+    .try_for_free{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        background-color: #794CFF;
+        height: 52px;
+        border: none;
+        transition: 0.5s;
+        color: white;
+        cursor: pointer;
+        width: 164px;
+    }
+
+    .try_for_free:hover{
+
+        background-color: #5032aa;
+
+    }
+
+    .graph_images{
+        margin-top: 30px;
+    }
+    .trusted_by_companies{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        margin: 30px 0px;
+        text-align: center;    
+    }
+    .ten_thousand{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .companies_logo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+/*        flex-direction: column;*/
+    }
+    .companies{
+        width: 15%;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 15px;
+        left: 10%;
+        font-size: 35px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400px;
+
+    }
+    .slack{
+        display: none;
+    }
+    .menu{
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        
+
+    }
+    /* First page ends  */
+
+ 
+    /* Timeline page starts */
+    .timelines{
+        background-color: #F0EBFA;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    .fa-message{
+        color: #F4CC4E;
+        border-radius: 50%;
+        padding: 8px;
+        font-size: 10px;
+        background-color: #FDF8E8;
+        position: relative;
+        left: 50%;
+    }
+
+    .fa-clock{
+        font-size: 10px;
+        color: #0DCE5E;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #E5F8ED; 
+        position: relative; 
+        left: 50%;
+    }
+    .left_timeline{
+        margin-top: 30px;
+        margin-left: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .timeline{
+        color: #FFFFFF;
+        height: 300px;
+        display: flex;
+        width: 93%;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #E1E5EA;
+    }
+    .left_line{
+        position: relative;
+        right: 10%;
+        top: 20px;
+
+    }
+    .tl{
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        position: relative;
+        left: 5%;
+        top: 2%;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .line1{
+        position: relative;
+        left: 100%;
+        height: 45%;
+        width: 1px;
+        margin: 10px 0px;
+        background-color: #E1E5EA;
+    }
+
+    .line2{
+        height: 10%;
+        margin: 10px 0px;
+        position: relative;
+        left: 100%;
+        width: 1px;
+        background-color: #E1E5EA;
+    }
+    .benchmarking{
+        position: relative;
+        top: 2%;
+    }
+
+    .bm{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .sent_to_denise{
+        position: relative;
+        top: 5%;
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 400;
+        margin: 10px 0px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+
+    }
+
+    .message1{
+        border-radius: 4px;
+        height: 11%;
+        width: 90%;
+        margin-top: 15px;
+        border: 1px solid #E1E5EA;
+    }
+
+    .denise_mention{
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 5px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3B7FF6;
+    }
+
+    .add_three_more{
+    /*    padding-right: 70px;*/
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;   
+    }
+
+    .bm1{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+    .message2 {
+        position: relative;
+        z-index: 1;
+        top: 10px;
+        right: 0%;
+        height: 200px;
+        border-radius: 4px;
+        width: 93%;
+        background-color: white;
+        border: 1px solid #E1E5EA;
+    }
+    .profile{
+        display: flex;
+        margin: 5px 10px;
+        align-items: center;
+    }
+    .denis_profile{
+        width: 6%;
+        margin-right: 10px;
+    }
+    .profile_name{
+        display: flex;
+        flex-direction: column;
+    }
+    .silva{
+        font-family: Inter;
+        font-size: 8px;
+        color: #4E5A65;
+        font-weight: 500;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .designer{
+        font-family: Inter;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .message_box{
+        position: relative;
+        left: 10%;
+        top: 10%;
+        padding-right: 10px;
+        height: 50%;
+        width: 80%;
+        border: 1px solid #E1E5EA;
+        background-color: white;
+    }
+
+    .thanks{
+        position: relative;
+        top: 10px;
+        font-size: 10px;
+    }
+
+    .peter{
+        font-size: 10px;
+    }
+
+    .send_messg{
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 50px;
+        height:22px;
+        border-radius: 4px;
+        background-color: #3B7FF6;
+        color: white;
+        position: relative;
+        top: 20%;
+        left: 74%;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    .right_timeline{
+        margin-top: 40px;
+        margin-left:10px;
+        margin-right: 0px;
+        height: 90%;
+        width: 20%;
+
+    }
+
+
+    .surveys{
+        text-align: center;
+        border: 1px solid #F0EBFA;
+        display: flex;
+        color: #35414B;
+        background-color: #FBFAFE;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 50px;
+        height: 120px;
+        width: 300px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+        border-radius: 4px;
+        letter-spacing: 0em;
+
+    }
+
+    .pink{
+        border-radius: 4px;
+        border-left: 0px solid #794CFF;
+        border-bottom:6px solid #794CFF;
+        padding: 0px 50px;
+
+        background-color: #F6F3FC;
+
+    }
+
+    .survey_desc{
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        color: #4E5A65;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    /* Timeline page ends */
+
+    /* Make your work more easier starts*/
+    .make_your_work_easier{
+        padding: 10px 15px;
+    }
+    .make_title{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .work_icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .work_icon{
+        height: 200px;
+        width: 300px;
+    }
+    .work_title{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .work_desc{
+        font-family: Inter;
+        color: #4E5A65;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+
+    .iconss{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+    /* Make your work more easier ends */
+
+    /* We work everyday starts */
+
+    .we_work{
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #FBFAFE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .graph2{
+        width: 100%;
+    }
+    .left_we_work{
+        text-align: center;
+        width: 100%;
+    }
+
+    .right_we_work{
+        text-align: center;
+        width: 100%;
+    }
+
+    .we_work_title{
+        font-family: Inter;
+        font-size: 35px;
+        padding-right:0px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .we_work_desc{
+        font-family: Inter;
+        font-size: 14px;
+        padding-right: 0px;
+        margin: 20px 0px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .we_work_button{
+        width: 140px;
+        height: 48px;
+        cursor: pointer;
+        transition: 0.4s;
+        border-radius: 4px;
+        background-color: #796EFF;
+        color: white;
+        font-family: Inter;
+        font-size: 14px;
+        border: none;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .we_work_button:hover{
+        background-color: #6357ff;
+    }
+    /* We work everyday ends */
+
+
+    /* Customer feedback starts */
+
+    .customer_love_title{
+        margin-top: 20px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0px 65px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 96px;
+        left: 0%;
+        color: #35414B;
+    }
+
+    .customer_love_desc{
+        font-family: Inter;
+        margin-top: 0px;
+        padding: 0px 40px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4E5A65;
+    }
+
+    .customer_icons{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .customer_1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0px;
+
+    }
+    .customer_image{
+        margin-right: 10px;
+        width: 15%;
+    }
+    .bordered_top{
+        padding: 20px 0px;
+        border-top: 2px solid black;
+
+    }
+    .customer_name{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 10px 0px;
+    }
+
+    .customer_post{
+        color:#4E5A65;
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .purple_play_store{
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        margin: 10px 0px;
+        align-items: center;
+        justify-content: center;
+        background-color: #796EFF;
+        border-radius:0px;
+    }
+
+    .left_purple{
+        position: relative;
+        left: 2%;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 600;
+        width: 100%;
+        line-height: 28px;
+        color: white;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .right_purple{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store_icons{
+        position: relative;
+        left: 25%;
+        margin-left: 00px;
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    /* Customer feedback ends */
+
+
+
+    /* Footer starts */
+
+    .footer_last{
+        background-color: #1D2830;
+        color: white;
+
+    }
+
+    .footer_lists{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px 40px 40px;
+
+        flex-wrap: wrap;
+    }
+    hr.line_hr{
+        border: 1px solid #293036;
+    }
+    .copyright{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .copyright_text{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        position: relative;
+        left: 0%;
+    }
+
+    .last_soc{
+        position: relative;
+        left: 0%;
+        margin-top: 20px;
+        width: 55%;
+    }
+
+    .footer_title{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .footer_childs{
+        font-family: Inter;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer_store{
+        width: 30%;
+    }
+    /* Footer ends  */
+
+
+
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    /* First page starts */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav_link{
+        display: flex;
+        margin-top: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .nav_title{
+        margin-top: 24px;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+    }
+    .right_nav{
+        margin-top: 24px;
+
+    }
+    .down{
+        font-size: 10px;
+    }
+
+
+    .login{
+        font-size: 16px;
+        padding-right: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+        margin-top: 24px;
+    }
+
+    .nav_links{
+        transition: 0.3s;
+        padding: 0px 18px;
+    }
+    .nav_links:hover{
+        color: rgb(82, 82, 82);
+    }
+    .get_started{
+        cursor: pointer;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        width: 130px;
+        transition: 0.5s;
+        height: 38px;    
+        border: none;
+        color:#794CFF;
+        border-radius: 4px;
+        background-color: #ECE5FF;
+        font-size: 13px;
+    }
+
+    .get_started:hover{
+        background-color: #cab6ff;
+
+    }
+
+
+    .save_ruppees{
+        display: flex;
+        margin-top: 7%;
+        
+
+        justify-content: center;
+    }
+
+
+    .ninety_percent{
+        width: 108px;
+        height: 32px;
+        background-color: #81C43B;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        border-radius: 100px;
+
+    }
+
+    .get_account{
+        background-color:#F2F9EB ;
+        width: 209px;
+        font-family: 'Inter', sans-serif;
+        cursor: pointer;
+        font-weight: 500;
+        border: none;
+        height: 32px;
+        color: black;
+        border-radius: 0px, 100px, 100px, 0px;
+        
+    }
+
+
+    .manage_team{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 2%;
+        color: #35414B;
+        padding: 0px 100px;
+        font-weight: 600;
+    }
+
+    .simple_platform{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #4E5A65;
+        margin-top: 2%;
+        font-size: 16px;
+        padding: 0px 70px;
+        text-align: center;
+    }
+
+    .inputs_free{
+        display: flex;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .input_free{
+        width: 319px;
+        height: 52px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #97A5B5;
+        border-radius: 4px, 0px, 0px, 4px;
+        border: 1px solid #F0EBFA;   
+    }
+
+    .input_free::placeholder{
+        padding-left: 10%;
+    }
+
+    .try_for_free{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        background-color: #794CFF;
+        height: 52px;
+        border: none;
+        transition: 0.5s;
+        color: white;
+        cursor: pointer;
+        width: 164px;
+    }
+
+    .try_for_free:hover{
+
+        background-color: #5032aa;
+
+    }
+
+    .graph_images{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+
+    }
+    .trusted_by_companies{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        margin: 30px 0px;
+        text-align: center;    
+    }
+    .ten_thousand{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .companies_logo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .companies{
+        width: 15%;
+    }
+    .hamburger{
+        display: none;
+    }
+
+    .timeline{
+        
+    }
+
+
+    /* Timeline page starts */
+    .timelines{
+        background-color: #F0EBFA;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    .fa-message{
+        color: #F4CC4E;
+        border-radius: 50%;
+        padding: 8px;
+        font-size: 10px;
+        background-color: #FDF8E8;
+        position: relative;
+        left: 50%;
+    }
+
+    .fa-clock{
+        font-size: 10px;
+        color: #0DCE5E;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #E5F8ED; 
+        position: relative; 
+        left: 50%;
+    }
+    .left_timeline{
+        margin-top: 30px;
+        margin-left: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .timeline{
+        color: #FFFFFF;
+        height: 300px;
+        display: flex;
+        width: 93%;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #E1E5EA;
+    }
+    .left_line{
+        position: relative;
+        right: 7%;
+        top: 20px;
+
+    }
+    .tl{
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        position: relative;
+        left: 5%;
+        top: 2%;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .line1{
+        position: relative;
+        left: 100%;
+        height: 45%;
+        width: 1px;
+        margin: 10px 0px;
+        background-color: #E1E5EA;
+    }
+
+    .line2{
+        height: 10%;
+        margin: 10px 0px;
+        position: relative;
+        left: 100%;
+        width: 1px;
+        background-color: #E1E5EA;
+    }
+    .benchmarking{
+        position: relative;
+        top: 2%;
+    }
+
+    .bm{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .sent_to_denise{
+        position: relative;
+        top: 5%;
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 400;
+        margin: 10px 0px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+
+    }
+
+    .message1{
+        border-radius: 4px;
+        height: 11%;
+        width: 90%;
+        margin-top: 15px;
+        border: 1px solid #E1E5EA;
+    }
+
+    .denise_mention{
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 5px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3B7FF6;
+    }
+
+    .add_three_more{
+    /*    padding-right: 70px;*/
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-family: Inter;
+        font-size: 6px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;   
+    }
+
+    .bm1{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 500;
+        line-height:5px;
+        letter-spacing: 0em;
+        position: relative;
+        top: 5%;
+        text-align: left;
+        color: #4E5A65;
+    }
+    .message2 {
+        position: relative;
+        z-index: 1;
+        top: 10px;
+        right: 0%;
+        height: 300px;
+        border-radius: 4px;
+        width: 93%;
+        background-color: white;
+        border: 1px solid #E1E5EA;
+    }
+    .profile{
+        display: flex;
+        margin: 5px 10px;
+        align-items: center;
+    }
+    .denis_profile{
+        width: 6%;
+        margin-right: 10px;
+    }
+    .profile_name{
+        display: flex;
+        flex-direction: column;
+    }
+    .silva{
+        font-family: Inter;
+        font-size: 8px;
+        color: #4E5A65;
+        font-weight: 500;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .designer{
+        font-family: Inter;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .message_box{
+        position: relative;
+        left: 10%;
+        top: 10%;
+        padding-right: 10px;
+        height: 50%;
+        width: 80%;
+        border: 1px solid #E1E5EA;
+        background-color: white;
+    }
+
+    .thanks{
+        position: relative;
+        top: 10px;
+        font-size: 10px;
+    }
+
+    .peter{
+        font-size: 10px;
+    }
+
+    .send_messg{
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 50px;
+        height:22px;
+        border-radius: 4px;
+        background-color: #3B7FF6;
+        color: white;
+        position: relative;
+        top: 20%;
+        left: 74%;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    .right_timeline{
+        margin-top: 40px;
+        margin-left:10px;
+        margin-right: 0px;
+
+        height: 90%;
+        width: 20%;
+
+    }
+
+
+    .surveys{
+        text-align: center;
+        border: 1px solid #F0EBFA;
+        display: flex;
+        color: #35414B;
+        background-color: #FBFAFE;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 50px;
+        height: 120px;
+        width: 300px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+        border-radius: 4px;
+        letter-spacing: 0em;
+    }
+
+    .pink{
+        border-radius: 4px;
+        border-left: 0px solid #794CFF;
+        border-bottom:6px solid #794CFF;
+        padding: 0px 50px;
+
+        background-color: #F6F3FC;
+
+    }
+
+    .survey_desc{
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        color: #4E5A65;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    /* Timeline page ends */
+
+    /* Make your work more easier starts*/
+    .make_your_work_easier{
+        padding: 10px 15px;
+    }
+    .make_title{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .work_icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .work_icon{
+        height: 200px;
+        width: 300px;
+    }
+    .work_title{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .work_desc{
+        font-family: Inter;
+        color: #4E5A65;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+
+    .iconss{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+    /* Make your work more easier ends */
+
+
+    /* We work everyday starts */
+
+    .we_work{
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #FBFAFE;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .graph2{
+        width: 100%;
+    }
+    .left_we_work{
+        padding: 10px 20px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .right_we_work{
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .we_work_title{
+        font-family: Inter;
+        font-size: 35px;
+        padding-right:0px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .we_work_desc{
+        font-family: Inter;
+        font-size: 14px;
+        padding-right: 0px;
+        margin: 20px 0px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .we_work_button{
+        width: 140px;
+        height: 48px;
+        cursor: pointer;
+        transition: 0.4s;
+        border-radius: 4px;
+        background-color: #796EFF;
+        color: white;
+        font-family: Inter;
+        font-size: 14px;
+        border: none;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .we_work_button:hover{
+        background-color: #6357ff;
+    }
+    /* We work everyday ends */
+
+    /* Customer feedback starts */
+
+    .customer_love_title{
+        margin-top: 20px;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0px 205px;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 96px;
+        left: 0%;
+        color: #35414B;
+    }
+
+    .customer_love_desc{
+        font-family: Inter;
+        margin-top: 20px;
+        padding: 0px 140px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4E5A65;
+    }
+
+    .customer_icons{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .customer_1{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 20px 0px;
+
+    }
+    .customer_image{
+        margin-right: 10px;
+        width: 20%;
+    }
+    .bordered_top{
+        padding: 20px 0px;
+        border-top: 2px solid black;
+
+    }
+    .customer_name{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 10px 0px;
+    }
+
+    .customer_post{
+        color:#4E5A65;
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .purple_play_store{
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: row;
+        margin: 10px 20px;
+        align-items: center;
+        
+        background-color: #796EFF;
+        border-radius:16px;
+    }
+
+    .left_purple{
+        position: relative;
+        left: 2%;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 600;
+        width: 100%;
+        line-height: 28px;
+        color: white;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .right_purple{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store_icons{
+        position: relative;
+        left: 25%;
+        margin-left: 00px;
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 70%;
+    }
+
+    /* Customer feedback ends */
+
+    /* Footer starts */
+
+    .footer_last{
+        background-color: #1D2830;
+        color: white;
+
+    }
+
+    .footer_lists{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 40px 0px 40px 40px;
+        margin-left: 60px;
+
+        flex-wrap: wrap;
+    }
+    hr.line_hr{
+        border: 1px solid #293036;
+    }
+    .copyright{
+        padding: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .copyright_text{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        position: relative;
+        left: 7%;
+    }
+
+    .last_soc{
+        position: relative;
+        left: 60%;
+        width: 15%;
+    }
+
+    .footer_title{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .footer_childs{
+        font-family: Inter;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer_store{
+        width: 30%;
+    }
+    /* Footer ends  */
+
+}
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+
+    /* First page starts */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav_link{
+        display: flex;
+        margin-top: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .nav_title{
+        margin-top: 24px;
+        font-size: 26px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+    }
+    .right_nav{
+        margin-top: 24px;
+
+    }
+    .down{
+        font-size: 10px;
+    }
+
+
+    .login{
+        font-size: 16px;
+        padding-right: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+        margin-top: 24px;
+    }
+
+    .nav_links{
+        transition: 0.3s;
+        padding: 0px 18px;
+    }
+    .nav_links:hover{
+        color: rgb(82, 82, 82);
+    }
+    .get_started{
+        cursor: pointer;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        width: 140px;
+        transition: 0.5s;
+        height: 48px;    
+        border: none;
+        color:#794CFF;
+        border-radius: 4px;
+        background-color: #ECE5FF;
+        font-size: 15px;
+    }
+
+    .get_started:hover{
+        background-color: #cab6ff;
+
+    }
+
+
+    .save_ruppees{
+        display: flex;
+        margin-top: 7%;
+        
+
+        justify-content: center;
+    }
+
+
+    .ninety_percent{
+        width: 108px;
+        height: 32px;
+        background-color: #81C43B;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        border-radius: 100px;
+
+    }
+
+    .get_account{
+        background-color:#F2F9EB ;
+        width: 209px;
+        font-family: 'Inter', sans-serif;
+        cursor: pointer;
+        font-weight: 500;
+        border: none;
+        height: 32px;
+        color: black;
+        border-radius: 0px, 100px, 100px, 0px;
+        
+    }
+
+
+    .manage_team{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 2%;
+        color: #35414B;
+        padding: 0px 100px;
+        font-weight: 600;
+    }
+
+    .simple_platform{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #4E5A65;
+        margin-top: 2%;
+        font-size: 16px;
+        padding: 0px 70px;
+        text-align: center;
+    }
+
+    .inputs_free{
+        display: flex;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .input_free{
+        width: 319px;
+        height: 52px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #97A5B5;
+        border-radius: 4px, 0px, 0px, 4px;
+        border: 1px solid #F0EBFA;   
+    }
+
+    .input_free::placeholder{
+        padding-left: 10%;
+    }
+
+    .try_for_free{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        background-color: #794CFF;
+        height: 52px;
+        border: none;
+        transition: 0.5s;
+        color: white;
+        cursor: pointer;
+        width: 164px;
+    }
+
+    .try_for_free:hover{
+
+        background-color: #5032aa;
+
+    }
+
+    .graph_images{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+
+    }
+    .trusted_by_companies{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        margin: 30px 0px;
+        text-align: center;    
+    }
+    .ten_thousand{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .companies_logo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .companies{
+        width: 15%;
+    }
+    .hamburger{
+        display: none;
+    }
+
+
+    /* Timeline page starts */
+    .timelines{
+        background-color: #F0EBFA;
+        height: 700px;
+        display: flex;
+    }
+    .fa-message{
+        color: #F4CC4E;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #FDF8E8;
+        position: relative;
+        left: 0%;
+    }
+
+    .fa-clock{
+        color: #0DCE5E;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #E5F8ED; 
+        position: relative; 
+        left: 0%;
+    }
+    .left_timeline{
+        margin-top: 30px;
+        margin-left: 50px;
+        height: 90%;
+        display: flex;
+
+    /*    flex-direction: column;*/
+        
+        width: 100%;
+    }
+
+
+
+    .timeline{
+        color: #FFFFFF;
+        height: 80%;
+        display: flex;
+
+        width: 60%;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #E1E5EA;
+    }
+    .left_line{
+        position: relative;
+        right: 8%;
+        top: 10%;
+
+    }
+    .tl{
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        position: relative;
+        left: 5%;
+        top: 2%;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .line1{
+        position: relative;
+        left: 45%;
+        height: 55%;
+        width: 1px;
+        margin: 10px 0px;
+        background-color: #E1E5EA;
+    }
+
+    .line2{
+        height: 14.5%;
+        margin: 10px 0px;
+        position: relative;
+        left: 45%;
+        width: 1px;
+        background-color: #E1E5EA;
+    }
+    .benchmarking{
+        position: relative;
+        top: 10%;
+    }
+
+    .bm{
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .sent_to_denise{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 11px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+
+    }
+
+    .message1{
+        border-radius: 4px;
+        height: 13%;
+        width: 90%;
+        margin-top: 20px;
+        border: 1px solid #E1E5EA;
+    }
+
+    .denise_mention{
+        font-family: Inter;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3B7FF6;
+    }
+
+    .add_three_more{
+    /*    padding-right: 70px;*/
+        position: relative;
+        top: 25%;
+        left: 5%;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;   
+    }
+
+    .bm1{
+        margin-top: 40px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+
+    .message2{
+        position: relative;
+        z-index: 1;
+        top: 22%;
+        right: 15%;
+        height: 350px;
+        border-radius: 4px;
+        width: 500px;
+        background-color: white;
+        border: 1px solid #E1E5EA;
+    }
+
+    .profile{
+        display: flex;
+        margin: 10px 20px;
+        align-items: center;
+    }
+    .denis_profile{
+        width: 9%;
+        margin-right: 10px;
+    }
+    .profile_name{
+        display: flex;
+        flex-direction: column;
+    }
+    .silva{
+        font-family: Inter;
+        font-size: 16px;
+        color: #4E5A65;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .designer{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4E5A65;
+    }
+
+    .message_box{
+        position: relative;
+        left: 10%;
+        top: 10%;
+        padding-right: 10px;
+        height: 50%;
+        width: 80%;
+        border: 1px solid #E1E5EA;
+        background-color: white;
+    }
+
+    .thanks{
+        position: relative;
+        top: 10px;
+        font-size: 16px;
+    }
+
+    .peter{
+        font-size: 16px;
+    }
+
+    .send_messg{
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 90px;
+        height: 42px;
+        border-radius: 4px;
+        background-color: #3B7FF6;
+        color: white;
+        position: relative;
+        top: 20%;
+        left: 70%;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    .right_timeline{
+        margin-top: 30px;
+        margin-left: -74px;
+        margin-right: 50px;
+        height: 80%;
+        width: 40%;
+
+    }
+
+
+    .surveys{
+    /*    margin-top: 5px;*/
+        border: 1px solid #F0EBFA;
+        display: flex;
+        color: #35414B;
+        background-color: #FBFAFE;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 25px;
+        height: 126px;
+        width: 360px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .pink{
+        border-left: 15px solid #794CFF;
+        padding: 0px 10px;
+
+        background-color: #F6F3FC;
+
+    }
+
+    .survey_desc{
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        color: #4E5A65;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    /* Timeline page ends */
+
+    /* Make your work more easier starts*/
+    .make_your_work_easier{
+        padding: 10px 15px;
+    }
+    .make_title{
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 40px;
+        margin: 20px 0px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .work_icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .work_icon{
+        height: 200px;
+        width: 300px;
+    }
+    .work_title{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #35414B;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .work_desc{
+        font-family: Inter;
+        color: #4E5A65;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+
+    .iconss{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+    /* Make your work more easier ends */
+
+
+
+    /* We work everyday starts */
+
+    .we_work{
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #FBFAFE;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .graph2{
+        width: 100%;
+    }
+    .left_we_work{
+        padding: 10px 40px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .right_we_work{
+        padding: 10px 40px;
+        width: 100%;
+    }
+
+    .we_work_title{
+        font-family: Inter;
+        font-size: 40px;
+        padding-right:0px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .we_work_desc{
+        font-family: Inter;
+        font-size: 18px;
+        padding-right: 0px;
+        margin: 20px 0px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .we_work_button{
+        width: 150px;
+        height:55px;
+        cursor: pointer;
+        transition: 0.4s;
+        border-radius: 4px;
+        background-color: #796EFF;
+        color: white;
+        font-family: Inter;
+        font-size: 16px;
+        border: none;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .we_work_button:hover{
+        background-color: #6357ff;
+    }
+    /* We work everyday ends */
+
+
+    /* Customer feedback starts */
+
+    .customer_love_title{
+        margin-top: 20px;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0px 205px;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 96px;
+        left: 0%;
+        color: #35414B;
+    }
+
+    .customer_love_desc{
+        font-family: Inter;
+        margin-top: 20px;
+        padding: 0px 140px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4E5A65;
+    }
+
+    .customer_icons{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .customer_1{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 20px 0px;
+
+    }
+    .customer_image{
+        margin-right: 10px;
+        width: 20%;
+    }
+    .bordered_top{
+        padding: 20px 0px;
+        border-top: 2px solid black;
+
+    }
+    .customer_name{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #4E5A65;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 10px 0px;
+    }
+
+    .customer_post{
+        color:#4E5A65;
+        margin-top: 5px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .purple_play_store{
+        display: flex;
+        padding: 70px 20px;
+        flex-direction: row;
+        margin: 10px 20px;
+        align-items: center;
+        
+        background-color: #796EFF;
+        border-radius:16px;
+    }
+
+    .left_purple{
+        position: relative;
+        left: 2%;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 600;
+        width: 100%;
+        padding-right: 200px;
+        line-height: 28px;
+        color: white;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .right_purple{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .store_icons{
+        position: relative;
+        left: 5%;
+        margin-left: 10px;
+        margin-top: 0px;
+        border-radius: 10px;
+        width: 40%;
+    }
+
+    /* Customer feedback ends */
+
+    /* Footer starts */
+
+    .footer_last{
+        background-color: #1D2830;
+        color: white;
+
+    }
+
+    .footer_lists{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 40px 0px 40px 40px;
+        margin-left: 60px;
+
+        flex-wrap: wrap;
+    }
+    hr.line_hr{
+        border: 1px solid #293036;
+    }
+    .copyright{
+        padding: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .copyright_text{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        position: relative;
+        left: 7%;
+    }
+
+    .last_soc{
+        position: relative;
+        left: 60%;
+        width: 15%;
+    }
+
+    .footer_title{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .footer_childs{
+        font-family: Inter;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer_store{
+        width: 30%;
+    }
+    /* Footer ends  */
+
+}
